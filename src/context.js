@@ -13,7 +13,7 @@ import {
   const initialState = {
     isLoading : true,
     hits : [],
-    query : 'react',
+    query : '',
     page: 0,
     nbPages : 0
   }
