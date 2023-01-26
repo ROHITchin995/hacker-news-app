@@ -3,8 +3,8 @@ import {
     SET_STORIES,
     REMOVE_STORY,
     HANDLE_PAGE,
-    HANDLE_SEARCH,
-} from './actions'
+    HANDLE_SEARCH
+} from './action'
 const reducer = (state, action) => {
     switch (action.type) {
         case SET_LOADING:
